@@ -1,0 +1,8 @@
+api_homepage:
+    path:     /
+    defaults: { _controller: ApiBundle:Default:index }
+
+create:
+    path:     /register
+    defaults: { _controller: ApiBundle:Registration:create }
+    methods: ["POST"]
